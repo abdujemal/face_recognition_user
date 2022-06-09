@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "722050499613",
+    "project_id": "faceiddoorlock",
+    "storage_bucket": "faceiddoorlock.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722050499613:android:4214c746120a00c53572f4",
+        "android_client_info": {
+          "package_name": "com.example.face_recognition_door"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722050499613-04c3odfkn70mtjoja4j6al40jbbii1uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsxH-h0OXuLuA6wakL0fL3VU4iAznEIaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722050499613-04c3odfkn70mtjoja4j6al40jbbii1uf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722050499613:android:f406b8a4fffe2e993572f4",
+        "android_client_info": {
+          "package_name": "com.example.face_recognition_user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722050499613-04c3odfkn70mtjoja4j6al40jbbii1uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsxH-h0OXuLuA6wakL0fL3VU4iAznEIaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722050499613-04c3odfkn70mtjoja4j6al40jbbii1uf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
