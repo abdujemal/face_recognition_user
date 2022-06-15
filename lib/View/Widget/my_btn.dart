@@ -15,7 +15,7 @@ class _MyBtnState extends State<MyBtn> {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: ()=>widget.ontap(),
-      child: Ink(
+      child: Container(
         decoration: BoxDecoration(color: Colors.blue,borderRadius: BorderRadius.circular(10)),
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),

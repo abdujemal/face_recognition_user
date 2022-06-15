@@ -65,7 +65,7 @@ class _AudioCallState extends State<AudioCall> {
 
       await engine!.setEnableSpeakerphone(true);
 
-      FirebaseDatabase.instance.ref().child("openAudio").onValue.listen((event) {
+      FirebaseDatabase.instance.ref().child("audioStarted").onValue.listen((event) {
           if(event.snapshot.value == true){
             setState(() {
               itJoined = true;
