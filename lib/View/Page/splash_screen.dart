@@ -20,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   splash() async {
-    await FirebaseMessaging.instance.subscribeToTopic("userA");
+    
     await Future.delayed(const Duration(seconds: 9));
     Navigator.pushAndRemoveUntil(context,
         MaterialPageRoute(builder: (_) => const HomePage()), (route) => false);
